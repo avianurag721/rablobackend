@@ -15,7 +15,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://magenta-kataifi-e10afe.netlify.app/",
+    origin: "https://magenta-kataifi-e10afe.netlify.app",
     credentials: true,
   })
 );
