@@ -15,7 +15,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://rablobackend-d3o3.onrender.com",
+    origin: "https://magenta-kataifi-e10afe.netlify.app/",
     credentials: true,
   })
 );
