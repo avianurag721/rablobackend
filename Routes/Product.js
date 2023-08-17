@@ -23,9 +23,9 @@ router.post("/updateproduct", auth, isAdmin, updateProduct);
 // *************************************************************************
 // ******************************Routes accessible to everyone**************
 
-router.post("/featuredproducts", featuredProducts);
-router.post("/getallproducts", getAllProducts);
-router.post("/filterprice", filterPrice);
-router.post("/filterrating", filterRating);
+router.get("/featuredproducts", featuredProducts);
+router.get("/getallproducts", getAllProducts);
+router.get("/filterprice", filterPrice);
+router.get("/filterrating", filterRating);
 
 module.exports = router;
